@@ -222,7 +222,7 @@ class SimpleTimer(QWidget):
         help_message_box = QMessageBox()
         help_message_box.setWindowTitle('Help')
         help_message_box.setIcon(QMessageBox.Question)
-        help_message_box.setText("If there's no sound, install sox!\nsudo apt install sox")
+        help_message_box.setText("If there's no sound, install sox!\napt install sox")
         help_message_box.exec_()
 
     def generate_timer_layout(self):
